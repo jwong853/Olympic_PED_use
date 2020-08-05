@@ -50,6 +50,9 @@ def athens_scraper(content_):
     df = pd.DataFrame(a, columns=['rank'])
     df['name'] = b
     df['result'] = c
+    
+    df.name = [x.strip() for x in df.name]
+    
 
     return df
 
