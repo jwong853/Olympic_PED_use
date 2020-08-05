@@ -1,0 +1,1 @@
+This directory holds the folders for project visuals (figures) and the project presentation (presentation)
