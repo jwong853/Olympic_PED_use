@@ -1,2 +1,2 @@
 # Olympic_PED_use
-Capstone project for classifying which olympic athletes doped in past olympic games
+Capstone project for classifying which olympic athletes used Performance Enhancing Drugs during the past Olympic Games
