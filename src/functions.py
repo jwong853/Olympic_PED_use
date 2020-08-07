@@ -19,7 +19,7 @@ def content_cleaner(df):
     df['name'] = [x.strip('\n\n\n\n\n\n\n\n\n\n\n\n') for x in df['name']]
     df['name'] = [x.replace('\n', ' ') for x in df['name']]
     df['name'] = [x[:-3] for x in df['name']]
-    df['name'] = [x.title() for x in df['name']]   
+    df['name'] = [x.lower() for x in df['name']]   
     
     df['result'] = [x[:-4] for x in df['result']]
     df['result'] = [x.split('\r\n') for x in df['result']]
