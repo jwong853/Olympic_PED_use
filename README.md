@@ -1,12 +1,12 @@
 # Table of Contents <img align="right" width="375" height="325" src="https://perks.optum.com/blog/wp-content/uploads/2016/08/olympics-doping.jpg"> 
 
 - [Exploratory Notebooks](https://github.com/jwong853/Olympic_PED_use/tree/master/notebooks)
-- [Report Notebook]()
-- [Project Presentation]()
-- [Data]()
+- [Report Notebook](https://github.com/jwong853/Olympic_PED_use/blob/master/reports/final_report/report.ipynb)
+- [Project Presentation](https://github.com/jwong853/Olympic_PED_use/tree/master/reports/presentation)
+- [Data](https://github.com/jwong853/Olympic_PED_use/tree/master/data)
 - [src/ directory with project source code](https://github.com/jwong853/Olympic_PED_use/tree/master/src)
-- [figures/ directory with project visuals]()
-- [Data references]()
+- [figures/ directory with project visuals](https://github.com/jwong853/Olympic_PED_use/tree/master/reports/figures)
+- [Data references](https://github.com/jwong853/Olympic_PED_use/tree/master/references)
 - [Project Conda environment](https://github.com/jwong853/Olympic_PED_use/blob/master/environment.yml)
 
 # Context of Project
@@ -107,7 +107,7 @@ I plan on implementing Deep Learning into this project if possible, specifically
 
 - [Project Conda environment](https://github.com/jwong853/Olympic_PED_use/blob/master/environment.yml)
 
-If you would like to reproduce this project you can use the link provided above to create the same environment with the packages used here. If you have any issues recreating the environment, take a look over the documentation [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file). All of the datasets used can be recreated by running through the scraper cells in the notebooks. All models and test splits were done with a random state: 42. If you would like to see where I obtained all the data from, take a look in the [Data]() folder of the repository. the EDA.ipynb notebook contains all the cells where the data is loaded and processed.
+If you would like to reproduce this project you can use the link provided above to create the same environment with the packages used here. If you have any issues recreating the environment, take a look over the documentation [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file). All of the datasets used can be recreated by running through the scraper cells in the notebooks. All models and test splits were done with a random state: 42. If you would like to see where I obtained all the data from, take a look in the [Data](https://github.com/jwong853/Olympic_PED_use/tree/master/data) folder of the repository. the EDA.ipynb notebook contains all the cells where the data is loaded and processed.
 
 #### Contact Information
 
