@@ -88,14 +88,14 @@ The data for this project was gathered from many different sources and can be fo
 |             | Precision | Recall | f1-score | Support | Avg Cross Val Score (3 splits, recall-scoring)       |                   
 |-------------|-----------|--------|----------|---------|--------|
 | **Negative_PED** |   100%    |  100%  |   100%   |  1031   |    
-| **Positive_PED** |   100%    |  82%  |   90%   |  17   |  
-|       |          |         |          |          |          82%                |
+| **Positive_PED** |   100%    |  71%  |   83%   |  17   |  
+|       |          |         |          |          |          71%                |
 
 #### Evaluation
 
-- This model was cross validated with the test split over 3 folds. There was an increase in performance with the recall increasing to 82%. Out of the 17 positive PED cases, the model correctly flagged 14 of them.
+- This model was cross validated with the test split over 3 folds. There was an increase in performance with the recall increasing to 71%. Out of the 17 positive PED cases, the model correctly flagged 14 of them.
 
-- This model has the ability to classify positive PED use in athletes but I would like to improve on the class imbalance before deploying it to the International Olympic Committee.
+- This model has the ability to classify positive PED use in athletes but I would like to improve on the class imbalance before deploying it to the International Olympic Committee. The model seems to be 
 
 ### Next Steps
 
