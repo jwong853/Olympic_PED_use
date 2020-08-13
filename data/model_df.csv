@@ -3736,8 +3736,8 @@ id,name,sex,age,height,weight,team,noc,year,season,city,sport,event_x,medal,even
 95060,tatjana pinto,F,24.0,170.0,56.0,Germany,GER,2016,Summer,Rio de Janeiro,Athletics,Athletics Women's 100 metres,,,,,,,,11.39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 95060,tatjana pinto,F,24.0,170.0,56.0,Germany,GER,2016,Summer,Rio de Janeiro,Athletics,Athletics Women's 4 x 100 metres Relay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 95191,bogdan pishchalnikov,M,29.0,197.0,120.0,Russia,RUS,2012,Summer,London,Athletics,Athletics Men's Discus Throw,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63.15,,
-95192,darya pishchalnikova,F,27.0,188.0,125.0,Russia,RUS,2012,Summer,London,Athletics,Athletics Women's Discus Throw,Silver,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DPG / 67.56
-95192,darya pishchalnikova,F,27.0,188.0,125.0,Russia,RUS,2012,Summer,London,Athletics,Athletics Women's Discus Throw,Silver,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DPG / 65.02
+95192,darya pishchalnikova,F,27.0,188.0,125.0,Russia,RUS,2012,Summer,London,Athletics,Athletics Women's Discus Throw,Silver,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67.56
+95192,darya pishchalnikova,F,27.0,188.0,125.0,Russia,RUS,2012,Summer,London,Athletics,Athletics Women's Discus Throw,Silver,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65.02
 95214,oscar pistorius,M,25.0,181.0,77.0,South Africa,RSA,2012,Summer,London,Athletics,Athletics Men's 400 metres,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46.54,,,,,,,,,,,,,,
 95214,oscar pistorius,M,25.0,181.0,77.0,South Africa,RSA,2012,Summer,London,Athletics,Athletics Men's 400 metres,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45.44,,,,,,,,,,,,,,
 95214,oscar pistorius,M,25.0,181.0,77.0,South Africa,RSA,2012,Summer,London,Athletics,Athletics Men's 4 x 400 metres Relay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
