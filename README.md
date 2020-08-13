@@ -36,20 +36,20 @@ The data for this project was gathered from many different sources and can be fo
 
  - These result tables were downloaded in pdf format, opened using tabula-py, and saved as csv files. I am currently waiting for the server to come back up in order to get the rest of the results to use with the model.
 
--[Current elite athetes suspended or banned due to doping violations](https://www.athleticsintegrity.org/disciplinary-process/global-list-of-ineligible-persons?order-by=disqualificationPeriod&sort=desc&isDopingViolation=yes#filters)
+-[Current elite athletes suspended or banned due to doping violations](https://www.athleticsintegrity.org/disciplinary-process/global-list-of-ineligible-persons?order-by=disqualificationPeriod&sort=desc&isDopingViolation=yes#filters)
 
--[Doping irrgularities at the Olympics](http://www.olympedia.org/lists/75/manual)
+-[Doping irregularities at the Olympics](http://www.olympedia.org/lists/75/manual)
 
 
 # Process
 
 ### EDA / Data Preprocessing
 
- - As discussed earlier the creation of this model was to aid the IOC in identifying PED use. Performing initial Exploratory Data Analysis allowed me to scrape together a dataset with only athletes that competed in the Summer Games from 2004-2016. To do this, I created individual tables for each event per year. These tables were then combined together and ordered by year of Olympic Games. 
+ - As discussed earlier the creation of this model was to aid the IOC in identifying PED use. Performing initial Exploratory Data Analysis allowed me to scrape together a dataset with only athletes that competed in the Summer Games from 2012-2016. To do this, I created individual tables for each event per year. These tables were then combined together and ordered by year of Olympic Games. 
 
  - Next, I repeated the above process for the results of each event. This wasn't as simple as some results show all heats, the semi-final, quarter-final, and final. While others only show the final result, not including atheletes from all of the individual heats. Do to this inconsistency I only gathered data that provided at least 2 race results per athlete. Since there are athletes that compete in more than one event as well as more than one Olympic Game, I chose to add these results to the dataset as individual columns. Since a majority of the datasets containing this information were from Olympedia, creating a dataframe and merging the results with the atheltes did not pose many issues.  
 
- - From there, I scraped multiple datasets containing athletes that had been flagged for PED use during the Olympics and only kept the data relevant for 2004-2016 Summer Sports. After cross-referencing the datasets, I ended up with a dataset containing 579 records for doping. To indicate whether or not an athlete had been found guilty of doping in the athelte dataset, I created a binary feature showing 1 for positive PED use and 0 for negative PED use. When trying to join this feature to the athlete dataframe, I was only successful in matching around 85 athletes from the doping datasets. Not all of the 579 athletes in the doping records were from the Summer Games, I found multiple athlete results from non-Olympic sporting events held during the same time period. After removing as many as I could find and formatting the names in the doping dataset, I was able to match on around 240 athletes. 
+ - From there, I scraped multiple datasets containing athletes that had been flagged for PED use during the Olympics and only kept the data relevant for 2012-2016 Summer Sports. After cross-referencing the datasets, I ended up with a dataset containing 579 records for doping. To indicate whether or not an athlete had been found guilty of doping in the athelte dataset, I created a binary feature showing 1 for positive PED use and 0 for negative PED use. When trying to join this feature to the athlete dataframe, I was only successful in matching around 85 athletes from the doping datasets. Not all of the 579 athletes in the doping records were from the Summer Games, I found multiple athlete results from non-Olympic sporting events held during the same time period. After removing as many as I could find and formatting the names in the doping dataset, I was able to match on around 240 athletes. 
  
  - After combining these datasets, I needed to prepare the data for modeling. I began by filling the missing values for event results with 0 since the athlete had not participated in that event. Then, I subsetted the numerical features and categorical features seperately, Standard Scaling the numerical features and One Hot Encoding the categorical features. For the events such as the marathon where the event times were in hours, I converted to minutes. I also converted the event results provided in minutes, to seconds.
 
