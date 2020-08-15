@@ -79,6 +79,7 @@ def content_cleaner(df):
     
     df = df.dropna(axis=0)
     df['rank'] = [x.strip('\n') for x in df['rank']]
+    df['rank'] = [x.strip('\n') for x in df['rank']]
     df['rank'] = [x.replace('G', '1.') for x in df['rank']]
     df['rank'] = [x.replace('S', '2.') for x in df['rank']]
     df['rank'] = [x.replace('B', '3.') for x in df['rank']]
