@@ -2,7 +2,7 @@
 
 - [Exploratory Notebooks](https://github.com/jwong853/Olympic_PED_use/tree/master/notebooks)
 - [Report Notebook](https://github.com/jwong853/Olympic_PED_use/blob/master/reports/final_report/final_report.ipynb)
-- [Project Presentation](https://github.com/jwong853/Olympic_PED_use/tree/master/reports/presentation)
+- [Project Presentation](https://github.com/jwong853/Olympic_PED_use/blob/master/reports/presentation/Olympic_ped_classification%20(1).pdf)
 - [Data](https://github.com/jwong853/Olympic_PED_use/tree/master/data)
 - [src/ directory with project source code](https://github.com/jwong853/Olympic_PED_use/tree/master/src)
 - [figures/ directory with project visuals](https://github.com/jwong853/Olympic_PED_use/tree/master/reports/figures)
