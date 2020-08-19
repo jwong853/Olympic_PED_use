@@ -1,7 +1,7 @@
 # Table of Contents <img align="right" width="375" height="325" src="https://perks.optum.com/blog/wp-content/uploads/2016/08/olympics-doping.jpg"> 
 
 - [Exploratory Notebooks](https://github.com/jwong853/Olympic_PED_use/tree/master/notebooks)
-- [Report Notebook](https://github.com/jwong853/Olympic_PED_use/blob/master/reports/final_report/report.ipynb)
+- [Report Notebook](https://github.com/jwong853/Olympic_PED_use/blob/master/reports/final_report/final_report.ipynb)
 - [Project Presentation](https://github.com/jwong853/Olympic_PED_use/tree/master/reports/presentation)
 - [Data](https://github.com/jwong853/Olympic_PED_use/tree/master/data)
 - [src/ directory with project source code](https://github.com/jwong853/Olympic_PED_use/tree/master/src)
