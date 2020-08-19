@@ -37,6 +37,7 @@ I have scraped together multiple datasets containing olympic athletes from the S
 
 ## References 
 - These references were used to gain insight to the data during analysis, they are located in the [references directory](https://github.com/jwong853/Olympic_PED_use/tree/master/references).
+
 |  folder/file | description  | link  |
 |---|---|---|
 | wada-adrv-reports  | .pdf files containing testing figures and reports from 2014-2018  | [WADA](https://www.wada-ama.org/en/resources/laboratories/anti-doping-testing-figures-report)  |
@@ -44,7 +45,9 @@ I have scraped together multiple datasets containing olympic athletes from the S
 | world_anti-doping_code  | .pdf files containing anti-doping efforts through universal harmonization of core anti-doping elements  | [WADA](https://www.wada-ama.org/en/what-we-do/the-code?gclid=CjwKCAjwj975BRBUEiwA4whRB5XgXQ0d7geSLnC7Se_kJDpdU6_izKVa3HypFRkX0XljEV-dgUHVihoCIKUQAvD_BwE)  |
 
 #### *Links to other References*
+
 - These references were used to gain insight to the issues of doping in athletics.
+
 
 |   |   |
 |---|---|
