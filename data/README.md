@@ -8,9 +8,9 @@ This directory contains all data used during the project.
 | athletes_dataset | .zip and .csv files obtained from Kaggle Datasets containing Athletes in the Summer Olympics for the past 120 years |
 | results_by_event | .csv files containing results from each track and field per Olympic Summer Games | 
 | ADRVs_by_sport | .pdf files containing number of tests and doping positives (WADA has only release reports from years 2013-2017)
-| model_df.csv | .csv file holding preprocessed dataframe to be used for modeling |
-| model_df_2.csv | .csv file holding preprocessed dataframe with only men's events but also including years 2008-2016 |
-
+| model_df_4.csv | .csv file holding dataframe with event results and athletes combined |
+| model_df_5.csv | .csv file holding preprocessed dataframe for modeling |
+| results.csv | .csv file containing only event results |
 
 ## Links to other references
 [Link to WADA/ADAMS](https://www.wada-ama.org)
