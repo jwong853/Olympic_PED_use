@@ -126,6 +126,6 @@ If you would like to reproduce this project you can use the link provided above 
 
 #### Contact Information
 
-|         Name             |                  GitHub               | 
-|--------------------------|----------------------------------|
-|Jason Wong              |[jwong853](https://github.com/jwong853)|
+|         Name             |                  GitHub               | Email |
+|--------------------------|----------------------------------|----------|
+|Jason Wong              |[jwong853](https://github.com/jwong853)| jwong853@gmail.com |
